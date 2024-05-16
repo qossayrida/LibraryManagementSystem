@@ -1,0 +1,305 @@
+.background {
+    /* Gradient background from #1e90ff at the top to #FcBFFf at the bottom */
+    -fx-background-color: #FFFBFA;
+}
+
+.login-box {
+    -fx-background-color: #ffffff; 
+    -fx-border-width: 2px;
+    -fx-border-radius: 30px;
+    -fx-background-radius: 30px;
+}
+
+.login-button {
+    -fx-background-color: #0073e6; 
+    -fx-text-fill: white;
+    -fx-font-size: 16px;
+    -fx-padding: 10px 20px; 
+    -fx-border-radius: 5px;
+    -fx-cursor: hand;
+}
+
+.login-button:hover {
+    -fx-background-color: #005ab8; 
+}
+
+.text-field-login{
+    -fx-background-color: #f0f0f0; /* Background color */
+    -fx-border-color: #ccc; /* Border color */
+    -fx-border-width: 1px; /* Border width */
+    -fx-border-radius: 5px; /* Border radius */
+    -fx-prompt-text-fill: #999; /* Prompt text color */
+    -fx-font-size: 14px; /* Font size */
+    -fx-padding: 5px; /* Padding */
+}
+
+.another-label {
+    -fx-text-fill: black;
+    -fx-font-size: 16px;
+    -fx-font-family: "Arial"; 
+}
+
+.loginButton {
+    -fx-background-color: #5cb85c;
+    -fx-text-fill: white;
+    -fx-padding: 10px 20px;
+    -fx-font-weight: bold;
+}
+
+.loginButton:hover {
+    -fx-background-color: #4cae4c;
+}
+
+.messageLabel {
+    -fx-text-fill: red;
+}
+
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+
+.text-field:focused {
+    -fx-border-color: #0073e6; /* Border color when focused */
+}
+
+/* Sidebar styles */
+.sidebar {
+    -fx-background-color: #2f3d7e; /* Dark blue background for the sidebar */
+    -fx-padding: 20px; /* Padding around the sidebar */
+    -fx-spacing: 10px; /* Space between elements */
+}
+
+/* Sidebar heading style */
+.sidebar-heading {
+    -fx-text-fill: #ecf0f1; /* Light grey text color for the heading */
+    -fx-font-size: 20px; /* Large text size for the heading */
+    -fx-font-weight: bold;
+    -fx-padding: 0 0 20px 0; /* Bottom padding */
+    -fx-alignment: center-left;
+}
+
+/* Button styles */
+.custom-button {
+    -fx-background-color: transparent; /* Transparent background */
+    -fx-text-fill: #ecf0f1; /* Light grey text color */
+    -fx-font-size: 14px;
+    -fx-background-radius: 0; /* No rounding of corners */
+    -fx-padding: 10px 15px; /* Padding around text */
+    -fx-graphic-text-gap: 10px; /* Gap between icon and text */
+    -fx-alignment: center-left; /* Align text and icon to the left */
+}
+
+.custom-button:hover {
+    -fx-background-color: #06042F; /* Slightly lighter blue background on hover */
+    -fx-background-radius: 10px; /* Maintain the rounded corners on hover */
+    -fx-border-radius: 10px; 
+}
+
+
+/*  for subscene
+*/
+
+.custom-button-subscene {
+    -fx-background-color: #add8e6;
+    -fx-text-fill: #000000;
+    -fx-font-family: 'Century Gothic';
+    -fx-font-size: 16;
+    -fx-background-radius: 22;
+    -fx-border-radius: 20;
+    -fx-border-color: #75C4D4;
+    -fx-border-width: 3;
+    -fx-pref-width: 120px; 
+    -fx-pref-height: 45px; 
+}
+
+.return-button-subscene {
+    -fx-background-color: #FFFBFA;
+    -fx-text-fill: #000000;
+    -fx-font-family: 'Century Gothic';
+    -fx-font-size: 13;
+    -fx-background-radius: 22;
+    -fx-border-radius: 20;
+    -fx-border-color: #D9C2AA;
+    -fx-border-width: 3;
+}
+
+.label-style-subscene  {
+    -fx-text-fill: #000000; /* Text color */
+    -fx-font-size: 16; /* Font size */
+    /* Add any other styling properties as needed */
+}
+
+.custom-hbox-subscene {
+    -fx-background-color: #add8e6; /* Background color */
+    -fx-border-color: #75C4D4; /* Border color */
+    -fx-border-width: 3;
+    -fx-background-radius: 22; /* Background radius for rounded corners */
+    -fx-border-radius: 20; /* Border radius for rounded corners */
+}
+
+
+.custom-textfield-subscene {
+    -fx-background-color: #add8e6; /* Background color */
+    -fx-text-fill: #000000; /* Text color */
+    -fx-prompt-text-fill: #4B4B4B; /* Text color */
+    -fx-background-radius: 10; /* Background radius for rounded corners */
+    -fx-border-radius: 8; /* Border radius for rounded corners */
+    -fx-border-color: #75C4D4; /* Border color */
+    -fx-border-width: 3; /* Border width */
+}
+
+
+.custom-ComboBox {
+    -fx-background-color: #add8e6;
+    -fx-text-fill: #000000;
+    -fx-font-family: 'Century Gothic';
+    -fx-font-size: 16;
+    -fx-background-radius: 22;
+    -fx-border-radius: 20;
+    -fx-border-color: #75C4D4;
+    -fx-border-width: 3;
+    -fx-pref-width: 200px; 
+    -fx-pref-height: 30px; 
+}
+
+.custom-ComboBox .list-cell {
+    -fx-background-color: #75C4D4; /* Black background */
+    -fx-background-radius: 22; 
+    -fx-border-radius: 20;
+    -fx-text-fill: #000000; /* White text */
+}
+
+.custom-ComboBox .list-view {
+    -fx-background-radius: 22; 
+    -fx-border-radius: 20; /* This applies rounded corners to the border */
+    -fx-border-width: 3; /* Border width as per the combo box */
+    -fx-border-color: #75C4D4; /* Border color as per the combo box */
+}
+
+/*
+ * 
+ * 
+ * 
+ */
+
+
+.table-view {
+    -fx-base: #75C4D4;
+    -fx-control-inner-background: #75C4D4;
+    -fx-background-color: #75C4D4; /* This ensures the background of the table is black */
+}
+
+.table-view .column-header-background .label {
+    -fx-text-fill: #000000;
+    -fx-font-family: 'Century Gothic';
+    -fx-font-size: 13;
+    -fx-background-color: #75C4D4;
+     -fx-border-width: 0 1 0 0;
+    -fx-border-color: transparent transparent transparent #000000; /* White right border for headers */
+}
+
+.table-view .table-row-cell {
+    -fx-background-color: #add8e6;
+    -fx-text-fill: #000000;
+    -fx-border-color: transparent transparent #000000 transparent; 
+    -fx-border-width: 0 0 1 0;
+}
+
+.table-view .table-cell {
+    -fx-alignment: center; /* Center content in the cell */
+    -fx-text-fill: #000000;
+    -fx-font-family: 'Century Gothic';
+    -fx-font-size: 13;
+    -fx-border-width: 0 1 0 0;
+    -fx-border-color: transparent #000000 transparent transparent; /* White right border for cells */
+}
+
+/* Scroll bar track */
+.table-view .scroll-bar:vertical .track,
+.table-view .scroll-bar:horizontal .track {
+    -fx-background-color: #75C4D4;
+}
+
+
+
+/* Style for selected row */
+.table-view .table-row-cell:selected {
+    -fx-background-color: #ADD8E6; /* Light blue for selection */
+    -fx-text-fill: #add8e6; /* Black text for selected row */
+}
+
+/* DatePicker  
+ * 
+ */
+
+.custom-date-picker {
+    -fx-background-color: #add8e6;
+    -fx-text-fill: #000000;
+    -fx-background-radius: 10;
+    -fx-border-radius: 8;
+    -fx-border-color: #75C4D4;
+    -fx-border-width: 3;
+}
+
+.custom-date-picker .day-cell:selected {
+    -fx-background-color: #add8e6; /* Customize the background color */
+    -fx-text-fill: #FFFFFF; /* Customize the text color */
+    -fx-font-weight: bold; /* Customize the font weight */
+}
+
+/* Style the arrow button */
+.custom-date-picker .arrow-button {
+    -fx-background-color: #add8e6;
+}
+
+/* Style the day cell */
+.custom-date-picker .day-cell {
+    -fx-background-color: #add8e6;
+}
+
+/* Style the selected day cell */
+.custom-date-picker .selected .day-cell {
+    -fx-background-color: #75C4D4;
+}
+
+/* Style the today cell */
+.custom-date-picker .today .day-cell {
+    -fx-background-color: #FFD700; /* Customize the color for today */
+}
+
+/* Style the calendar header */
+.custom-date-picker .calendar-header {
+    -fx-background-color: #75C4D4;
+    -fx-padding: 5 10;
+}
+
+/* Style the calendar header labels */
+.custom-date-picker .calendar-header .label {
+    -fx-text-fill: #FFFFFF;
+}
+
+/* Style the popup */
+.custom-date-picker .popup {
+    -fx-background-color: #75C4D4;
+    -fx-border-color: #75C4D4;
+    -fx-border-width: 3;
+}
+/* application.css */
+
+.rounded-textfield-container {
+    -fx-background-color: #f0f0f0; /* Set your desired background color for the container */
+    -fx-border-radius: 10; /* Set border radius for the container */
+    -fx-padding: 10; /* Add padding for better spacing */
+}
+
+.rounded-label {
+    -fx-font-size: 14;
+    -fx-font-weight: bold;
+}
+
+.rounded-textfield {
+    -fx-background-radius: 5;
+    -fx-border-radius: 5;
+}
+
+.rounded-icon {
+    -fx-padding: 0 5 0 0; /* Adjust padding as needed */
+}
