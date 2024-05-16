@@ -1,35 +1,42 @@
-# longest Increasing Subsequence
+# LibraryManagementSystem
 
-This project implements a dynamic programming approach to solve the Max LED Lighting problem, where the goal is to connect LEDs on one circuit board to power sources on another in a manner that maximizes the number of lit LEDs without any wires crossing. This problem involves finding the optimal pairings of LEDs to power sources given a specific arrangement.
+Public Library Database Management System (BMP-LDMS). This system is designed to streamline key library operations, improve efficiency, and enhance the overall experience for both library staff and customers. The BMP-LDMS will maintain accurate records of borrowed books, track customer information, manage memberships efficiently, and provide real-time information on due dates and book availability.
 
 
 ## How to use
-Upon launching the application, you will be greeted with the Welcome Screen. Here you can choose to 
+Upon launching the application, you will be greeted with the Login Screen. Here you can choose to 
+
+Click on the Manger icon to get the admin email from DataBase and use a password "admin" to login
 <p align="center">
-  <img width="720" height="405" src="https://github.com/QossayRidi/longestIncreasingSubsequence/assets/59481839/f54c335d-f2c3-4263-80b8-d5033f17d7a0">
+  <img width="720" height="405" src="https://github.com/qossayrida/longestIncreasingSubsequence/assets/59481839/c221213d-2e10-4507-b602-961bc81f418b">
 </p>
 
-- **Upload data from text file:**
+- **Home Scrren**
 
-    Selecting Upload data from text file will open a file dialog where you can choose a text file from your computer that contains the data in this format 
-<p align="center">
-  <img width="414" height="162" src="https://github.com/QossayRidi/longestIncreasingSubsequence/assets/59481839/96d3485f-b86b-4f3c-b11e-ed33e96b332e">
-</p>
+   This Home Scrren allows users to view library statistics such as the total number of books, classifications, patrons, and librarians. It also shows information about new borrows, returns, and overdue books. Users can also see borrowing transactions, a list of patrons with borrowed books and their due dates, and unpaid transactions. The program allows librarians to change their passwords and view the most reserved book. 
+    <p align="center">
+        <img width="650" height="380" src="https://github.com/qossayrida/longestIncreasingSubsequence/assets/59481839/17c47600-68db-4923-a234-fe0b04f36aa4">
+    </p>
 
-- **Enter data manually:** 
+  - Borrowing Transaction
 
-    You'll be prompted to input the number of power sources and then assign an LED to each power source.
-<p align="center">
-  <img width="550" height="400" src="https://github.com/QossayRidi/longestIncreasingSubsequence/assets/59481839/62158b9f-de75-4198-a05e-08ffaf87e586">
-</p>
+    <p align="center">
+        <img width="600" height="350" src="https://github.com/qossayrida/longestIncreasingSubsequence/assets/59481839/d7b1d07f-e659-4492-9727-2604573604c2">
+    </p>
 
-- **Generate random data:** 
+  - Return Book 
 
-    The application will generate a random configuration for you, once you specify the number of power sources.
-<p align="center">
-  <img width="550" height="400" src="https://github.com/QossayRidi/longestIncreasingSubsequence/assets/59481839/15f707c7-9a16-4847-8034-9535509cc51d">
-</p>
+    <p align="center">
+        <img width="600" height="350" src="https://github.com/qossayrida/longestIncreasingSubsequence/assets/59481839/681fdc85-c1ff-4712-ab0c-a6df76035e1e">
+    </p>
 
+  - Return Book 
+
+    <p align="center">
+        <img width="600" height="350" src="https://github.com/qossayrida/longestIncreasingSubsequence/assets/59481839/2c44284d-7568-48e1-b459-9979e1908d58">
+    </p>
+    
+Many other details were not mentioned. You can clone the project and ask me for any details you need
 
 ## 🔗 Links
 
